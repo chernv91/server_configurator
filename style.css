@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 5px;
+}
+
+#calculate, #to_excel {
+    margin-top: 10px;
+}
+
+div.count, .item_cost {
+    display: inline-block;
+    position: absolute;
+    left: 540px;
+}
+
+.item_cost {
+    position: absolute;
+    left: 610px;
+}
+
+select {
+    padding: 2px;
+    width: 520px;
+}
+
+p {
+    font-weight: bold;
+}
