@@ -196,7 +196,7 @@ $(document).ready(function () {
             url    : "excel.php",
             data   : {str: str},
             success: function () {
-                alert("Данные успешно выгружены в файл table.xlsx");
+                alert("Ссылка для скачивания: " + window.location.href + "table.xlsx");
             }
         });
 
@@ -210,7 +210,7 @@ $(document).ready(function () {
             url    : "pdf.php",
             data   : {table: table},
             success: function () {
-                alert("Данные успешно выгружены в файл table.pdf");
+                alert("Ссылка для скачивания: " + window.location.href + "table.pdf");
             }
         });
 
