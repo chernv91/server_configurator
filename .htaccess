@@ -1,0 +1,17 @@
+
+Options -Indexes
+ErrorDocument 404 /404.php
+ErrorDocument 500 /500.html
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType image/jpeg "access plus 3 day"
+    ExpiresByType image/gif "access plus 3 day"
+    ExpiresByType image/png "access plus 3 day"
+    ExpiresByType text/css "access plus 3 day"
+    ExpiresByType application/javascript "access plus 3 day"
+</IfModule>
